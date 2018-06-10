@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <body>
 
-  Full name:<br>
-  <input type="text" name="Full Name">
+  <h3 style="margin-left:15px;"> Request for New Setup Box </h3>
+  <p style="margin-left:15px;font-weight:bold;font-family:Arial;">Full Name:</p>
+  <input type="text" name="Full Name" class="form-control" style="width:30%;margin-left:15px;">
   <br>
-  Mobile:<br>
-  <input type="text" name="Mobile">
+  <p style="margin-left:15px;font-weight:bold;font-family:Arial;">Mobile:</p>
+  <input type="text" name="Mobile" class="form-control"  style="width:30%;margin-left:15px;">
   <br><br>
- <button onclick="myFunction()">Request</button>
+ <button class="btn btn-success" style="margin-left:15px;" onclick="myFunction()">New Request</button>
   
   <p id="demo"></p>
   
@@ -19,7 +25,8 @@ function myFunction() {
 </script>
 
   <!input type="submit" value="Submit">
-</form> <html>
+</form> 
+
 
 
 
